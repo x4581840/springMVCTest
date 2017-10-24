@@ -5,7 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wisely</groupId>
-    <artifactId>highlight_springMVC4</artifactId>
+    <!--<artifactId>highlight_springMVC4</artifactId>-->
+    <artifactId>springMVCTest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -98,6 +99,18 @@
             <version>${logback.version}</version>
         </dependency>
 
+        <!-- 对json和xml格式的支持-->
+        <!--<dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>2.5.3</version>
+        </dependency>这个以来包含以下的依赖-->
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.5.3</version>
+        </dependency>
     </dependencies>
 
     <build>
